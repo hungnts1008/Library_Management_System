@@ -1,0 +1,42 @@
+Library:
+* Has -> Books, Members, Librarians -> Composition
+    - Books 
+    - Members
+    - Librarians
+* Book
+    - ISBN
+    - Title
+    - Author
+    - Copies
+    - Available Copies
+
+Member is a person, Librarian is a person -> Inheritance
+* Member
+    - ID
+    - Name
+    - Address
+    - Phone
+    - Email
+    - Books Borrowed
+
+* Librarian
+    - ID
+    - Name
+    - Address
+    - Phone
+    - Email
+    - Books Issued
+* Person
+    - Name
+    - Address
+    - Phone
+    - Email
+    - BorrowedBook
+* Book
+    ID;
+    author;
+    title;
+    publisher;
+    year;
+    page;
+    numCopies
